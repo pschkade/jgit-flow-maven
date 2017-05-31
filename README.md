@@ -1,5 +1,7 @@
 # JGit-Flow Maven Example
 
+[![CircleCI](https://circleci.com/gh/revof11/jgit-flow-maven/tree/master.svg?style=svg)](https://circleci.com/gh/revof11/jgit-flow-maven/tree/master)
+
 This example [Apache Maven](http://maven.apache.org) project shows use of the [JGit-Flow Maven Plugin](https://bitbucket.org/atlassian/jgit-flow/wiki/Home) from [Atlassian](https://www.atlassian.com).  We hope to use this project as a demonstration area for the plugin, documentation source and a place to play with things that could potentially break the plugin so that we can report bugs to make the plugin better.  It's a great plugin for those using Maven and [Git](https://git-scm.com) and we want to help promote use and make it more reliable.
 
 ## Setting up the POM
