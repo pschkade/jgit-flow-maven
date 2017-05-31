@@ -55,3 +55,14 @@ git push origin development
 git push origin master
 git push --tags
 ```
+
+### More Squashing
+
+Whenever you do a release, everything is rolled into multiple commits.  It may be in your interest to squash the commits even more than what the plugin already does for us.  This is pretty simple to do but requires some extra steps that you can easily automate if you need to.  Here's what we want to do in order to accomplish rolling everything into a single commit from a Git history perspective:
+
+1.  Execute a rebase (the plugin makes 4, so we want to rebase based on 4 commits)
+```bash
+git rebase -i HEAD~4
+```
+2.  When your editor opens (or if you're scripting), replace the **last 3** (not the first one) *pick* text in the file with *squash*
+3.  Continue with the rest of the deploy after the command completes
