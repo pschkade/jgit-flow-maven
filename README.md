@@ -4,6 +4,20 @@
 
 This example [Apache Maven](http://maven.apache.org) project shows use of the [JGit-Flow Maven Plugin](https://bitbucket.org/atlassian/jgit-flow/wiki/Home) from [Atlassian](https://www.atlassian.com).  We hope to use this project as a demonstration area for the plugin, documentation source and a place to play with things that could potentially break the plugin so that we can report bugs to make the plugin better.  It's a great plugin for those using Maven and [Git](https://git-scm.com) and we want to help promote use and make it more reliable.
 
+## Known Issues
+
+> Until the first issue is fixed, I will not go any further with documentation.
+
+### Issue List
+
+* [MJF-293](https://ecosystem.atlassian.net/browse/MJF-293) : infinite loop using status badge on this project (blocker)
+* [MJF-266](https://ecosystem.atlassian.net/browse/MJF-266) : conflict on the version, which should be auto-resolved (annoyance)
+
+### Work-Arounds
+
+* MJF-293 : get rid of any status badges
+* MJF-266 : resolve the conflict, add/commit, then run finish again
+
 ## Setting up the POM
 
 The plugin is extremely simple to use and you don't need to do much in order to get things running.  You will need your SCM data defined in your project's POM file and you will then just need to add the following to your build plugins:
