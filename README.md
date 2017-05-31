@@ -51,7 +51,7 @@ mvn jgitflow:release-finish
 6.  Optionally squash some more (see the *More Squashing* documentation here) - this doesn't bother me, personally, so I don't do it
 7.  Push the development branch, master branch and all the tags
 ```bash
-git push origin development
+git push origin develop
 git push origin master
 git push --tags
 ```
