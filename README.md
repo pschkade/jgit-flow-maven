@@ -82,3 +82,5 @@ git rebase -i HEAD~4
 ```
 2.  When your editor opens (or if you're scripting), replace the **last 3** (not the first one) *pick* text in the file with *squash*
 3.  Continue with the rest of the deploy after the command completes
+
+bla test doc
