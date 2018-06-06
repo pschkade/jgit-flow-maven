@@ -93,6 +93,14 @@
         <groupId>external.atlassian.jgitflow</groupId>
         <artifactId>jgitflow-maven-plugin</artifactId>
         <version>1.0-m5.1</version>
+        <!-- fix for SSH Algorithm negotiation fail, see https://ecosystem.atlassian.net/browse/MJF-299 -->
+        <dependencies>
+          <dependency>
+            <groupId>com.jcraft</groupId>
+            <artifactId>jsch</artifactId>
+            <version>0.1.54</version>
+          </dependency>
+        </dependencies>
         <configuration>
           <noDeploy>true</noDeploy>
           <squash>true</squash>
