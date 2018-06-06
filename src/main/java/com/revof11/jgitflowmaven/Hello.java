@@ -5,6 +5,7 @@ package com.revof11.jgitflowmaven;
  */
 public class Hello {
 
+  private final NewFeature feature = new NewFeature();
   /**
    * Retrieves a "Hello" message to someone.
    * @param person the person we want to say "Hello" to
@@ -19,6 +20,6 @@ public class Hello {
    * @return
    */
   public String getSomeOtherMessage() {
-    return "whatever";
+    return "whatever " + feature.answerToItAll();
   }
 }
