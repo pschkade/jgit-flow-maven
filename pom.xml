@@ -4,7 +4,7 @@
 
   <groupId>com.revof11</groupId>
   <artifactId>jgit-flow-maven-example</artifactId>
-  <version>0.1.2-SNAPSHOT</version>
+  <version>1.2.4-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>JGit-Flow Maven Plugin Example</name>
