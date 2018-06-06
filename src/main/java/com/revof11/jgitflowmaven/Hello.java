@@ -13,4 +13,8 @@ public class Hello {
   public String getHelloMessage(String person) {
     return String.format("Hello, %s!", person);
   }
+  
+  public String getSomeOtherMessage() {
+    return "whatever";
+  }
 }
